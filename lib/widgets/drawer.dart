@@ -11,7 +11,7 @@ class MyDrawer extends StatelessWidget {
     final imageURL =
         "https://p16-amd-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c792a3093b2d276da8e5edd6e9e8baf3~c5_720x720.jpeg";
     return Drawer(
-      backgroundColor: Colors.deepOrange,
+      backgroundColor: Theme.of(context).primaryColor,
       child: Container(
         child: ListView(
           children: [
